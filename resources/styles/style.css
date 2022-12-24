@@ -1,0 +1,132 @@
+@font-face {
+  font-family: nors;
+  src: url(/resources/fonts/Norse.otf);
+  font-weight: bold;
+}
+body {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  width: 20rem;
+  height: 25px;
+}
+button {
+  width: 15rem;
+  height: 3rem;
+  border: none;
+  border-radius: 12px;
+  background-color: rgb(97, 128, 97);
+}
+
+.container {
+  display: flex;
+}
+
+.logo-bg {
+  display: flex;
+  position: absolute;
+  height: 20%;
+  width: 39.28%;
+  margin-top: -50rem;
+  background-color: rgba(119, 119, 119, 0.527);
+}
+
+.logo-container {
+  display: flex;
+  margin-top: -49rem;
+}
+
+.logo {
+  display: flex;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 10rem;
+  margin-left: 20px;
+}
+
+.bg-image {
+  display: flex;
+  height: 70rem;
+  position: relative;
+}
+.logo-text {
+  position: absolute;
+  display: flex;
+  font-family: nors;
+  font-size: 10rem;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-left: 15rem;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(252, 254, 255);
+  height: 70rem;
+  width: 71.3rem;
+}
+.right-center {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: rgb(184, 184, 184);
+  width: 71.3rem;
+  height: 26rem;
+}
+.heading-text {
+  flex-direction: column;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 0;
+  margin-left: 5rem;
+  width: 90%;
+}
+.form-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60rem;
+  height: 40rem;
+  gap: 80px;
+  justify-content: space-around;
+}
+.form-left .form-right {
+  display: flex;
+}
+
+.label {
+  margin-top: 40px;
+}
+
+.input {
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.submit-bt {
+  display: flex;
+  margin-top: 5rem;
+  margin-right: 38rem;
+}
