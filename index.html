@@ -23,8 +23,8 @@
     <div class="right-container">
       <div class="heading-text">
         <p class="heading-right">
-          This is not a real online service! you know you need somthing like
-          this in your life to help you realize your deepest dreams. Signe up
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
           <em>now</em> to get started.
         </p>
         <p>You <em>know</em> you want to</p>
@@ -35,60 +35,78 @@
       <div class="right-center">
         <form>
           <p class="form-heading">Let's do this!</p>
-          <!--The left side of the form
+
+          <div class="form-container">
+            <!--The left side of the form
         
          -->
-          <div class="form-container">
             <div class="form-left">
+              <!-- First Name input -->
               <div class="label">
                 <label for="first-name">FIRST NAME</label>
               </div>
               <div class="input">
-                <input type="text" id="first-name" name="user-first" />
+                <input type="text" id="first-name" name="user-first" required />
               </div>
+              <!-- Email input -->
               <div class="label">
                 <label for="email">EMAIL</label>
               </div>
               <div class="input">
-                <input type="email" id="email" name="user-mail" />
+                <input type="email" id="email" name="user-mail" required />
               </div>
+              <!-- Password input -->
               <div class="label">
                 <label for="pw">PASSWORD</label>
               </div>
               <div class="input">
-                <input type="password" id="pw" name="user-pw" />
+                <input type="password" id="pw" name="user-pw" required />
               </div>
             </div>
+            <!-- Right side of container
+            
+            -->
             <div class="form-right">
+              <!-- Last name Input -->
               <div class="label">
                 <label for="last-name">LAST NAME</label>
               </div>
               <div class="input">
-                <input type="text" id="last-name" name="user-last" />
+                <input type="text" id="last-name" name="user-last" required />
               </div>
+              <!-- Phone number input -->
               <div class="label">
                 <label for="phone-number">PHONE NUMBER</label>
               </div>
               <div class="input">
-                <input type="tel" id="phone-number" name="user-tel" />
+                <input type="tel" id="phone-number" name="user-tel" required />
               </div>
+              <!-- Confirm password input -->
               <div class="label">
                 <label for="confirm-pw">CONFIRM PASSWORD</label>
               </div>
               <div class="input">
                 <input
                   type="password"
-                  id="confirm-password"
+                  id="confirm-pw"
                   name="pw-confirm"
+                  required
                 />
+                <span class="error" aria-live="polite"></span>
               </div>
             </div>
           </div>
+          <!-- Button
+          
+          -->
           <div class="submit-bt">
             <button type="submit">Create Account</button>
           </div>
         </form>
       </div>
+      <!-- Footer
+      
+      -->
       <div class="footer-txt">
         <p class="log-in">Already have an account? <a href="">Log In</a></p>
       </div>

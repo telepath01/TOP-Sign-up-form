@@ -13,6 +13,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 input[type="text"],
 input[type="password"],
@@ -20,6 +21,9 @@ input[type="email"],
 input[type="tel"] {
   width: 20rem;
   height: 25px;
+  border: 1px solid rgba(170, 170, 170, 0.534);
+  
+  border-radius: 8px;
 }
 button {
   width: 15rem;
@@ -29,6 +33,12 @@ button {
   background-color: rgb(97, 128, 97);
 }
 
+input:focus {
+  
+  outline: 2px solid rgb(93, 93, 253);
+
+}
+
 .container {
   display: flex;
 }
@@ -36,8 +46,8 @@ button {
 .logo-bg {
   display: flex;
   position: absolute;
-  height: 20%;
-  width: 39.28%;
+  height: 12rem;
+  width: 46.7rem;
   margin-top: -50rem;
   background-color: rgba(119, 119, 119, 0.527);
 }
@@ -76,7 +86,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(252, 254, 255);
+  background-color: rgb(192, 192, 192);
   height: 70rem;
   width: 71.3rem;
 }
@@ -84,8 +94,10 @@ button {
   display: flex;
   justify-content: center;
   align-self: center;
-  background-color: rgb(184, 184, 184);
+  background-color: rgb(255, 255, 255);
+
   width: 71.3rem;
+
   height: 26rem;
 }
 .heading-text {
@@ -103,6 +115,7 @@ button {
   font-size: 30px;
   font-weight: bold;
   margin-top: 30px;
+  margin-left: -42rem;
 }
 .form-container {
   display: flex;
@@ -122,11 +135,20 @@ button {
 }
 
 .input {
-  border: 2px solid black;
-  border-radius: 3px;
+  border: none;
+  border-radius: 12px;
+  bor
 }
 .submit-bt {
   display: flex;
   margin-top: 5rem;
   margin-right: 38rem;
+}
+.footer-txt {
+  display: flex;
+  margin-top: 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 9rem;
+  font-size: 20px;
+  font-weight: bold;
 }
